@@ -1,15 +1,16 @@
 package dev.wakandaacademy.produdoro.credencial.domain;
 
+
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.FieldType;
 import org.springframework.data.mongodb.core.mapping.MongoId;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
-
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Builder;
 @Builder
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 @Document(collection = "Credencial")
